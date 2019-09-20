@@ -1,1 +1,4 @@
-http://www.timeseriesclassification.com/Downloads/Archives/Univariate2018_arff.zip
+https://www.cs.ucr.edu/~eamonn/time_series_data_2018/UCRArchive_2018.zip
+
+pw: someone
+
