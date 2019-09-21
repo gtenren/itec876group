@@ -354,7 +354,7 @@ def visualize_filter(root_dir):
 
     import keras
     classifier = 'fcn'
-    archive_name = 'UCR_TS_Archive_2015'
+    archive_name = 'UCRArchive_2018'
     dataset_name = 'Gun_Point'
     datasets_dict = read_dataset(root_dir,archive_name,dataset_name)
 
@@ -424,7 +424,7 @@ def viz_perf_themes(root_dir,df):
 def viz_perf_train_size(root_dir,df):
     df_size = df.copy()
     train_sizes = []
-    datasets_dict_ucr = read_all_datasets(root_dir, archive_name='UCR_TS_Archive_2015')
+    datasets_dict_ucr = read_all_datasets(root_dir, archive_name='UCRArchive_2018')
     datasets_dict_mts = read_all_datasets(root_dir, archive_name='mts_archive')
     datasets_dict = dict(datasets_dict_ucr, **datasets_dict_mts)
 
@@ -448,7 +448,7 @@ def viz_perf_train_size(root_dir,df):
 def viz_perf_classes(root_dir,df):
     df_classes = df.copy()
     class_numbers = []
-    datasets_dict_ucr = read_all_datasets(root_dir, archive_name='UCR_TS_Archive_2015')
+    datasets_dict_ucr = read_all_datasets(root_dir, archive_name='UCRArchive_2018')
     datasets_dict_mts = read_all_datasets(root_dir, archive_name='mts_archive')
     datasets_dict = dict(datasets_dict_ucr, **datasets_dict_mts)
 
@@ -472,7 +472,7 @@ def viz_perf_classes(root_dir,df):
 def viz_perf_length(root_dir,df):
     df_lengths = df.copy()
     lengths = []
-    datasets_dict_ucr = read_all_datasets(root_dir, archive_name='UCR_TS_Archive_2015')
+    datasets_dict_ucr = read_all_datasets(root_dir, archive_name='UCRArchive_2018')
     datasets_dict_mts = read_all_datasets(root_dir, archive_name='mts_archive')
     datasets_dict = dict(datasets_dict_ucr, **datasets_dict_mts)
 
@@ -496,7 +496,7 @@ def viz_perf_length(root_dir,df):
 def viz_plot(root_dir,df):
     df_lengths = df.copy()
     lengths = []
-    datasets_dict_ucr = read_all_datasets(root_dir, archive_name='UCR_TS_Archive_2015')
+    datasets_dict_ucr = read_all_datasets(root_dir, archive_name='UCRArchive_2018')
     datasets_dict_mts = read_all_datasets(root_dir, archive_name='mts_archive')
     datasets_dict = dict(datasets_dict_ucr, **datasets_dict_mts)
 
@@ -539,7 +539,7 @@ def viz_cam(root_dir):
     import keras
     import sklearn
     classifier = 'fcn'
-    archive_name = 'UCR_TS_Archive_2015'
+    archive_name = 'UCRArchive_2018'
     dataset_name = 'Meat'
 
 

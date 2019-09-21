@@ -13,7 +13,7 @@ MTS_DATASET_NAMES = ['ArabicDigits', 'AUSLAN', 'CharacterTrajectories', 'CMUsubj
 
 ITERATIONS = 1 # nb of random runs for random initializations
 
-ARCHIVE_NAMES = ['Univariate_arff','mts_archive']
+ARCHIVE_NAMES = ['UCRArchive_2018','mts_archive']
 
 CLASSIFIERS = ['fcn','mlp','resnet','tlenet','mcnn','twiesn','encoder','mcdcnn','cnn']
 
