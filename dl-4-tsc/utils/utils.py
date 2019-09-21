@@ -65,8 +65,8 @@ def read_dataset(root_dir,archive_name,dataset_name):
 
     else:
         file_name = root_dir+'/archives/'+archive_name+'/'+dataset_name+'/'+dataset_name
-        x_train, y_train = readucr(file_name+'_TRAIN.txt')
-        x_test, y_test = readucr(file_name+'_TEST.txt')
+        x_train, y_train = readucr(file_name+'_TRAIN.tsv')
+        x_test, y_test = readucr(file_name+'_TEST.tsv')
         datasets_dict[dataset_name] = (x_train.copy(),y_train.copy(),x_test.copy(),
             y_test.copy())
 
@@ -94,8 +94,8 @@ def read_all_datasets(root_dir,archive_name, split_val = False):
         for dataset_name in DATASET_NAMES:
             root_dir_dataset =root_dir+'/archives/'+archive_name+'/'+dataset_name+'/'
             file_name = root_dir_dataset+dataset_name
-            x_train, y_train = readucr(file_name+'_TRAIN.txt')
-            x_test, y_test = readucr(file_name+'_TEST.txt')
+            x_train, y_train = readucr(file_name+'_TRAIN.tsv')
+            x_test, y_test = readucr(file_name+'_TEST.tsv')
 
             datasets_dict[dataset_name] = (x_train.copy(),y_train.copy(),x_test.copy(),
                 y_test.copy())
