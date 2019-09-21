@@ -52,3 +52,19 @@ constants.py
 rm -r <dir>
 ```
 
+## 3. Run code
+
+This code allow the training run into the background of VM
+
+```
+hsup <command> &
+```
+
+check if the task is running
+
+```
+jobs
+bg
+top
+```
+
