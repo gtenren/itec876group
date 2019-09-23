@@ -59,7 +59,7 @@ This code allow the training run into the background of VM
 ```
 hsup <command> &
 # for example:
-hsup python3 UCRArchive_2018 Coffee fcn _itr8_ &
+nohup python3 main.py UCRArchive_2018 Coffee fcn _itr8_ &
 ```
 
 check if the task is running
