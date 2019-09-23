@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dl-4-tsc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dl-4-tsc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifiers/encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifiers/encoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classifiers/fcn.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifiers/fcn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classifiers/mcdcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifiers/mcdcnn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -35,11 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="-630">
               <caret line="338" column="70" selection-start-line="338" selection-start-column="70" selection-end-line="338" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classifiers/encoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-172">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+              <folding>
+                <element signature="e#10#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,7 +101,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/classifiers/cnn.py" />
-        <option value="$PROJECT_DIR$/classifiers/encoder.py" />
         <option value="$PROJECT_DIR$/classifiers/mcnn.py" />
         <option value="$PROJECT_DIR$/classifiers/mlp.py" />
         <option value="$PROJECT_DIR$/classifiers/resnet.py" />
@@ -100,6 +112,7 @@
         <option value="$PROJECT_DIR$/utils/constants.py" />
         <option value="$PROJECT_DIR$/classifiers/mcdcnn.py" />
         <option value="$PROJECT_DIR$/utils/utils.py" />
+        <option value="$PROJECT_DIR$/classifiers/encoder.py" />
       </list>
     </option>
   </component>
@@ -360,16 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classifiers/encoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#10#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classifiers/cnn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -392,8 +395,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="-630">
           <caret line="338" column="70" selection-start-line="338" selection-start-column="70" selection-end-line="338" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classifiers/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="e#10#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
