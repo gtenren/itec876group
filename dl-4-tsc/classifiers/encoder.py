@@ -4,7 +4,7 @@ import keras_contrib
 import numpy as np
 import pandas as pd
 import time
-from keras_contrib.layers.normalization.instancenormalization import InstanceNormalization
+from keras_contrib.layers.normalization import InstanceNormalization
 
 
 from utils.utils import save_logs

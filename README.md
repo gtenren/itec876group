@@ -83,3 +83,5 @@ problem: encoder failed loading instance normalization
 # Austalk
 
 data preprocessing complete, 2391 row of data
+
+3 classes: hins, hine, hinge
