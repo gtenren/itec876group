@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33da5913-d4ef-47f1-952a-bdb886a0594f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/garylau.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/austalk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk" beforeDir="false" afterPath="$PROJECT_DIR$/austalk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/austalk/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/austalk/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/austalk/auraya.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/austalk/austalk.py" beforeDir="false" afterPath="$PROJECT_DIR$/austalk/austalk.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment10_1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment10_2.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment10_3.json" beforeDir="false" />
