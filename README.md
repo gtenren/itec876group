@@ -1,4 +1,4 @@
-last updated: 21/9/2019
+last updated: 25/9/2019
 
 The following document record the changes need to run the code
 
@@ -69,4 +69,12 @@ jobs
 bg
 top
 ```
+
+
+
+## Code checking log
+
+model checked: fcn, cnn, mlp, encoder, mcnn
+
+problem: encoder failed loading instance normalization
 
