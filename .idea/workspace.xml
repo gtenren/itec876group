@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33da5913-d4ef-47f1-952a-bdb886a0594f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dl-4-tsc/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dl-4-tsc/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dl-4-tsc/.idea/dl-4-tsc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dl-4-tsc/.idea/dl-4-tsc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dl-4-tsc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dl-4-tsc/.idea/workspace.xml" afterDir="false" />
@@ -47,11 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dl-4-tsc/classifiers/encoder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-              <folding>
-                <element signature="e#10#22#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -266,11 +262,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dl-4-tsc/classifiers/encoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="e#10#22#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
