@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33da5913-d4ef-47f1-952a-bdb886a0594f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/garylau.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/austalk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/austalk/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/auraya.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/austalk.py" beforeDir="false" afterPath="$PROJECT_DIR$/austalk/austalk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment10_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment10_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment10_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment10_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment10_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment10_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment10_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment11_0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment11_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment11_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment11_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment11_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment11_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment11_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment11_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment12_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment12_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment12_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment12_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment12_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment12_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment12_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment13_0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment13_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment13_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment13_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment13_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment13_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment13_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment14_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment14_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment14_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment1_0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment1_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment1_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment1_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment1_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment1_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment1_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment1_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment2_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment2_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment2_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment2_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment2_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment2_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment2_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment3_0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment3_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment3_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment3_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment3_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment3_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment3_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment3_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment4_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment4_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment4_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment4_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment4_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment4_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment4_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment5_0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment5_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment5_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment5_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment5_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment5_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment5_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment5_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment6_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment6_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment6_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment6_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment6_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment6_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment6_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment7_0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment7_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment7_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment7_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment7_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment7_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment7_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment7_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment8_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment8_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment8_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment8_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment8_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment8_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment8_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment9_0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment9_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment9_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment9_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment9_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment9_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment9_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/completed_experiment/experiment9_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/experiment/experiment14_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/experiment/experiment14_5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/experiment/experiment14_6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/experiment/experiment14_7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/report.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/report_ext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment11_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment12_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment12_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment12_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment12_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment12_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment12_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment12_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment13_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment14_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment14_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment14_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment14_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment14_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment14_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol/enrol_experiment14_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment10_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment10_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment10_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment10_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment10_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment10_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment10_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment11_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment1_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment1_0_t.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment2_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment2_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment2_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment2_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment2_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment2_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment2_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment3_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment4_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment4_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment4_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment4_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment4_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment4_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment4_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment5_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment6_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment6_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment6_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment6_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment6_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment6_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment6_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment7_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment8_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment8_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment8_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment8_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment8_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment8_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment8_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/enrol_experiment9_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment10_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment10_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment10_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment10_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment10_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment10_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment10_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment11_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment11_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment11_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment11_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment11_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment11_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment11_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment11_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment12_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment12_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment12_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment12_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment12_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment12_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment12_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment13_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment13_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment13_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment13_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment13_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment13_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment13_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment13_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment14_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment14_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment14_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment14_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment14_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment14_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment14_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment1_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment1_0_t.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment1_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment1_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment1_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment1_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment1_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment1_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment1_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment2_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment2_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment2_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment2_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment2_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment2_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment2_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment3_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment3_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment3_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment3_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment3_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment3_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment3_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment3_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment4_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment4_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment4_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment4_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment4_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment4_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment4_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment5_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment5_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment5_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment5_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment5_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment5_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment5_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment5_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment6_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment6_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment6_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment6_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment6_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment6_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment6_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment7_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment7_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment7_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment7_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment7_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment7_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment7_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment7_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment8_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment8_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment8_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment8_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment8_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment8_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment8_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment9_0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment9_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment9_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment9_3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment9_4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment9_5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment9_6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/austalk/result/experiment9_7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dl-4-tsc/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/dl-4-tsc/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dl-4-tsc/.idea/dl-4-tsc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dl-4-tsc/.idea/dl-4-tsc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dl-4-tsc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dl-4-tsc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dl-4-tsc/classifiers/encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/dl-4-tsc/classifiers/encoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dl-4-tsc/classifiers/fcn.py" beforeDir="false" afterPath="$PROJECT_DIR$/dl-4-tsc/classifiers/fcn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dl-4-tsc/classifiers/mcdcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/dl-4-tsc/classifiers/mcdcnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dl-4-tsc/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/dl-4-tsc/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dl-4-tsc/utils/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/dl-4-tsc/utils/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dl-4-tsc/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/dl-4-tsc/utils/utils.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/austalk/austalk.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1995">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#93#107#0" expanded="true" />
+                <element signature="e#2512#2803#0" />
+                <element signature="e#3464#4268#0" />
+                <element signature="e#4342#5471#0" />
+                <element signature="e#5510#5996#0" />
+                <element signature="e#6058#6667#0" />
+                <element signature="e#6740#7434#0" />
+                <element signature="e#7511#8862#0" />
+                <element signature="e#8937#9747#0" />
+                <element signature="e#9833#10313#0" />
+                <element signature="e#10623#12250#0" />
+                <element signature="e#12282#14039#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/austalk" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/austalk/data/data.csv" />
+        <option value="$PROJECT_DIR$/austalk/austalk.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1152" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="austalk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="austalk" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="austalk" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="austalk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="dl-4-tsc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="austalk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/austalk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/austalk/austalk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.austalk" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33da5913-d4ef-47f1-952a-bdb886a0594f" name="Default Changelist" comment="" />
+      <created>1569640429895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569640429895</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1152" height="720" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17927928" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3276923" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="R Packages" />
+      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/auraya/austalk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auraya/auraya.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="153" column="30" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/austalk/data/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-989556">
+          <caret column="121" selection-start-column="119" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/austalk/auraya.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/austalk/data/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dl-4-tsc/archives/UCRArchive_2018/ACSF1/ACSF1_TEST.tsv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/austalk/data/data.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret column="608" selection-start-column="608" selection-end-column="608" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/austalk/austalk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1995">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#93#107#0" expanded="true" />
+            <element signature="e#2512#2803#0" />
+            <element signature="e#3464#4268#0" />
+            <element signature="e#4342#5471#0" />
+            <element signature="e#5510#5996#0" />
+            <element signature="e#6058#6667#0" />
+            <element signature="e#6740#7434#0" />
+            <element signature="e#7511#8862#0" />
+            <element signature="e#8937#9747#0" />
+            <element signature="e#9833#10313#0" />
+            <element signature="e#10623#12250#0" />
+            <element signature="e#12282#14039#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

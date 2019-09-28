@@ -1,4 +1,4 @@
-last updated: 25/9/2019
+last updated: 28/9/2019
 
 The following document record the changes need to run the code
 
@@ -9,13 +9,13 @@ cd utils/
 ```
 
 ```
-pip install -r pip-requirements.txt
+pip3 install -r pip-requirements.txt
 ```
 
 will fail installing tensor flow-gpu use (need to resolve this)
 
 ```bash
-pip install --no-cache-dir tensorflow
+pip3 install --no-cache-dir tensorflow
 ```
 
 ```bash
@@ -74,7 +74,12 @@ top
 
 ## Code checking log
 
-model checked: fcn, cnn, mlp, encoder, mcnn
+model checked: fcn, cnn, mlp, encoder, mcnn, resnet, ltenet, twiesn
 
 problem: encoder failed loading instance normalization
 
+
+
+# Austalk
+
+data preprocessing complete, 2391 row of data
