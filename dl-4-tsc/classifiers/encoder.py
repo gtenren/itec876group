@@ -80,7 +80,8 @@ class Classifier_ENCODER:
 
         duration = time.time() - start_time
 
-        model = keras.models.load_model(self.output_directory + 'best_model.hdf5')
+        model = keras.models.load_model(self.output_directory + 'best_model.hdf5',
+                                        custom_objects={'InstanceNormalization' : InstanceNormalization})
 
         y_pred = model.predict(x_val)
 
