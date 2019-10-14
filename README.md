@@ -57,7 +57,7 @@ rm -r <dir>
 This code allow the training run into the background of VM
 
 ```
-hsup <command> &
+nohup <command> &
 # for example:
 nohup python3 main.py UCRArchive_2018 Coffee fcn _itr8_ &
 ```
@@ -70,15 +70,25 @@ bg
 top
 ```
 
+Upload your file to VM
+
+```
+scp -i path/to/key file/to/copy user@ec2-xx-xx-xxx-xxx.compute-1.amazonaws.com:path/to/file
+```
+
+
+
+To download all the results file, got to the local directory which stored your key, and use the following command: 
+
+```
+scp -i itec876project.pem -r ubuntu@ec2-100-26-35-101.compute-1.amazonaws.com:/home/ubuntu/itec876group/dl-4-tsc/results/ project/dl-4-tsc/results/
+```
+
 
 
 ## Code checking log
 
-model checked: fcn, cnn, mlp, encoder, mcnn, resnet, ltenet, twiesn
-
-problem: encoder failed loading instance normalization
-
-
+All model checked.
 
 # Austalk
 
