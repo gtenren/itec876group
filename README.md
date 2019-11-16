@@ -1,8 +1,21 @@
-last updated: 28/9/2019
+last updated: 16/11/2019
 
-The following document record the changes need to run the code
+# Files
+
+austalk - contains files that download and preprocess Austalk data set. (by KA YU LAU 41895118)
+
+dl-4-tsc - the modified code from the original paper
+
+financial distress - code for preprocess financial distress data (by
+SURUCHI BHALLA 45497648)
+
+# Rnning the Code
+
+Please clone the repository and use the following steps to run the code. 
 
 ##  1. Set-up environment
+
+change directory to dl-4-tsc and then set up the dependancies in order to run the code.
 
 ```
 cd utils/
@@ -12,7 +25,7 @@ cd utils/
 pip3 install -r pip-requirements.txt
 ```
 
-will fail installing tensor flow-gpu use (need to resolve this)
+If install tensor flow-gpu fail, please use the following command to solve the low memory issue.
 
 ```bash
 pip3 install --no-cache-dir tensorflow
@@ -24,12 +37,13 @@ pip3 install git+https://www.github.com/keras-team/keras-contrib.git
 
 This will install the require package to run the code on the VM
 
-## 2. Modified Code
+## 2. Modification done on dl-4-tsc 
 
 main.py
 
 - *line76* change the **root_dir** to the existing project directory
 - if an existing result for the set up exist, the code will print "already done"
+- line 341 mcdcnn, result, acc -> accuracy
 
 
 
@@ -44,7 +58,10 @@ constants.py
 
 - *line16* change 'ARCHIVE_NAME' to you data folder
 - root_dir set to the path of the existing project folder
-- if "/results" contains results of the current experiment, the code will print "already done". Need to remove the file for the code to run. 
+
+Note:
+
+- if "/results" contains results of the current experiment, the code will print "already done". Need to remove the file for the code before rerunning the code.
 
     
 
@@ -52,17 +69,21 @@ constants.py
 rm -r <dir>
 ```
 
-## 3. Run code
+# 3. Original data set
+
+Please refer to README.md in dl-4-tsc/archives.
+
+## 4. Run code
 
 This code allow the training run into the background of VM
 
 ```
-nohup <command> &
+nohup python3 main.py <archive_name> <data_set> <classifier> <which_iteration> &
 # for example:
 nohup python3 main.py UCRArchive_2018 Coffee fcn _itr8_ &
 ```
 
-check if the task is running
+check if the task by running any one of the following
 
 ```
 jobs
@@ -88,10 +109,4 @@ scp -i itec876project.pem -r ubuntu@ec2-100-26-35-101.compute-1.amazonaws.com:/h
 
 ## Code checking log
 
-All model checked.
-
-# Austalk
-
-data preprocessing complete, 2391 row of data
-
-3 classes: hins, hine, hinge
+All model checked.  (11/10/2019)
