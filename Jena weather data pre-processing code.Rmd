@@ -1,0 +1,51 @@
+---
+title: "jena_preprocessing_version_2"
+author: "Pratik Tushar Gokhale"
+---
+loading dataset
+```{r}
+data_1 <- read.csv("train_data_slice_basic.csv", header = FALSE)
+data_Demo <- head(data_1)
+```
+
+converting into point form
+```{r}
+data_1[, 2:ncol(data_1)]/100
+```
+
+
+```{r}
+temp <- vector(mode="integer", length=143)
+for(i in seq(6))
+{
+  temp[i] <- rowSums(data_1[i,])/143 
+}
+
+```
+
+
+```{r}
+for(i in seq(6))
+{
+ # print(temp)
+  print(temp[i])
+  if(temp[i] >= 0.80 )
+  {
+    data_1[i,144] <- 2 
+     print("works")
+  }else if(temp[i] < 0.80 & temp[i] >= 0.60)
+  {
+    data_1[i,144] <- 1 
+  }else if(temp[i] <= 0.60)
+  {
+    data_1[i,144] <- 0 
+  }
+}
+```
+before converting it to tsv file manually chancing 144th column to first column. After doing that we use following code lines to convert it into a tsv file.
+
+```{r}
+
+#write.csv(data_1, file = "TempDataTest.csv")
+write.table(data_1, file='data_slice_jena.tsv', quote=FALSE, sep='\t', row.names = FALSE, col.names = FALSE)
+```
