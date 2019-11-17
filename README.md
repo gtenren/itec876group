@@ -2,12 +2,15 @@ last updated: 16/11/2019
 
 # Files
 
-austalk - contains files that download and preprocess Austalk data set. (by KA YU LAU 41895118)
+austalk - contains files that download and preprocess Austalk data set.
 
 dl-4-tsc - the modified code from the original paper
 
-financial distress - code for preprocess financial distress data (by
-SURUCHI BHALLA 45497648)
+financial distress - code for preprocess financial distress data
+
+Jena weather data pre-processing code.Rmd - R code for Jena weather data 
+
+YearlyWeatherDataCleaning.R - Rcode for preprocessign Yearly Weather Data
 
 # Rnning the Code
 
